@@ -1,7 +1,6 @@
-// src/components/Header.tsx
-
 import { useState } from "react";
-import { Menu } from "lucide-react"; // Using Lucide icons for a modern look
+import { Menu } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,9 +10,11 @@ const Header = () => {
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         
         {/* Logo */}
+        <Link to="/">
         <a href="#" className="text-3xl font-extrabold text-pink-700">
           Flopentine ❤️
         </a>
+        </Link>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex gap-8 text-pink-800 text-lg font-medium">

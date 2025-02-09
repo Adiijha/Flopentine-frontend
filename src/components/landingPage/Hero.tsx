@@ -22,11 +22,10 @@ const Hero = () => {
           <p className="text-lg text-gray-700 mt-6">
             Anonymously post, upvote/downvote, and enjoy the funniest and most awkward Valentine’s Day experiences.
           </p>
-          <Link to="/stories">
-          <a href="#" className="mt-6 inline-block bg-pink-600 text-white font-semibold text-lg px-8 py-4 rounded-full shadow-lg hover:bg-pink-700 transition duration-300">
-            Share Your Story
-          </a>
-          </Link>
+          <Link to="/stories" className="mt-6 inline-block bg-pink-600 text-white font-semibold text-lg px-8 py-4 rounded-md">
+  Go to Stories
+</Link>
+
         </div>
   
         {/* Decorative Bottom Shape */}
