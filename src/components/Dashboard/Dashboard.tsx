@@ -47,8 +47,8 @@ const Dashboard = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-pink-100 to-pink-300 px-6 py-12">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-4xl font-bold text-center text-pink-800 mb-8">
-          Stories ❤️
+        <h1 className="text-3xl md:text-4xl font-bold text-center text-pink-800 mb-8">
+          Stories 💔
         </h1>
 
         {/* Story Input */}
@@ -63,13 +63,13 @@ const Dashboard = () => {
             />
             <div className="mt-4 flex justify-end space-x-4">
               <button
-                className="bg-gray-400 text-white px-6 py-2 rounded-full shadow-md hover:bg-gray-500 transition"
+                className="bg-gray-400 text-white px-6 py-2 rounded-full text-sm md:text-md shadow-md hover:bg-gray-500 transition"
                 onClick={() => setIsInputVisible(false)}
               >
                 Cancel
               </button>
               <button
-                className="bg-pink-600 text-white px-6 py-2 rounded-full shadow-md hover:bg-pink-700 transition"
+                className="bg-pink-600 text-white px-6 py-2 rounded-full text-sm md:text-md shadow-md hover:bg-pink-700 transition"
                 onClick={handleStorySubmit}
               >
                 <Send className="inline-block mr-2" /> Submit

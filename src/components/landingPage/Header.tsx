@@ -11,8 +11,8 @@ const Header = () => {
         
         {/* Logo */}
         <Link to="/">
-        <a href="#" className="text-3xl font-extrabold text-pink-700">
-          Flopentine ❤️
+        <a href="#" className="text-xl md:text-3xl font-extrabold text-pink-700">
+          Flopentine 💔
         </a>
         </Link>
 
@@ -33,7 +33,7 @@ const Header = () => {
 
       {/* Mobile Navigation Menu */}
       {isOpen && (
-        <div className="md:hidden bg-white border-t shadow-md absolute top-full left-0 w-full text-center">
+        <div className="md:hidden bg-white border-t shadow-md top-full left-0 w-full text-center">
           <a href="#" className="block py-3 text-pink-800 hover:bg-pink-100">Home</a>
           <a href="#how-it-works" className="block py-3 text-pink-800 hover:bg-pink-100">How It Works</a>
         </div>

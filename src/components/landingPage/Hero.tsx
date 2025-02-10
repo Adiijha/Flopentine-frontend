@@ -16,13 +16,14 @@ const Hero = () => {
   
         {/* Hero Content */}
         <div className="relative z-10 max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-6xl font-extrabold text-pink-800 leading-tight">
-            💔 Share Your <span className="text-pink-600">Worst</span> <br /> Valentine’s Stories!
+          <div className="text-4xl md:text-6xl">💔</div>
+          <h1 className="text-4xl md:text-6xl font-extrabold text-pink-800 leading-tight">
+             Share Your <span className="text-pink-600">Worst</span> <br /> Valentine’s Stories!
           </h1>
-          <p className="text-lg text-gray-700 mt-6">
+          <p className="text-md md:text-lg text-gray-700 mt-6">
             Anonymously post, upvote/downvote, and enjoy the funniest and most awkward Valentine’s Day experiences.
           </p>
-          <Link to="/stories" className="mt-6 inline-block bg-pink-600 text-white font-semibold text-lg px-8 py-4 rounded-md">
+          <Link to="/stories" className="mt-6 inline-block hover:bg-pink-700 bg-pink-600 text-white font-semibold text-md md:text-lg px-8 py-4 rounded-md">
   Go to Stories
 </Link>
 
